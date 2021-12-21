@@ -10,8 +10,8 @@ class Sphere(object):
 
     # *** STEP 2 ***
     # uncomment the following 2 lines
-    #def __str__(self):
-    #    return '%s(%s)' % (self.__class__.__name__, self.radius)
+    def __str__(self):
+        return '%s(%s)' % (self.__class__.__name__, self.radius)
 
     def surface(self):
         # *** STEP 3 ***
